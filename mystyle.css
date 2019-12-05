@@ -3,7 +3,7 @@ margin:0;
 font-family: 'Nanum Gothic', sans-serif;
 font-size: 20pt;
 color: #556B2F;
-background: url(top.jpeg) top repeat-x, url(merry1.jpeg) bottom repeat-x
+background: url(top.jpeg) top repeat-x, url(merry1.jpeg) bottom repeat-x, ##FAD7D7
 }
 
 a {
