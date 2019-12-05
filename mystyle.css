@@ -1,0 +1,79 @@
+body{
+margin:0;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 20pt;
+color: #556B2F;
+background: url(top.jpeg) top repeat-x, url(merry1.jpeg) bottom repeat-x
+}
+
+a {
+color:hsla(0, 100%, 30%, 0.3);
+text-decoration: none;
+font-size: 30px
+}
+h1 {
+  text-align: center;
+  border-bottom:2px solid #CD5C5C;
+  margin: 0px;
+  padding:50px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 5px #CD5C5C
+}
+h2{
+color: #CD5C5C;
+font-family: 'Pacifico', cursive;
+font-weight: bold;
+font-size: 30pt;
+}
+
+
+ul{
+  margin: 0;
+  width: 200px;
+  padding: 30px;
+  color: #CD5C5C;
+  font-family:'Pacifico', cursive;
+  font-size: 15pt;
+  display: inline-block;
+}
+
+img{
+width: 200px;
+height: 200px;
+padding: 20px;
+}
+
+#grid{
+display: grid;
+grid-template-columns: 300px 1fr;
+}
+
+#grid ul{
+  border-right:2px solid #CD5C5C;
+  margin: 0;
+  width: 180px;
+  padding: 30px;
+  color: #CD5C5C;
+  font-family:'Pacifico', cursive;
+}
+#grid #article{
+  margin:0;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13pt;
+  color: #CD5C5C;
+  padding: 20px
+}
+@media(max-width:800px){
+.grid{
+display: block;
+}
+.article{
+  border:none;
+}
+ul{
+border-right:none;
+}
+h1 {
+border-bottom:none;
+}
+}
